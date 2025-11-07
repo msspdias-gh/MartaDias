@@ -1,0 +1,242 @@
+h1,h2,h3,p,figure,body{margin: 0;}
+a{color: #ffffff;}
+
+body{font-family: "Poppins", sans-serif;}
+
+.top-site{
+    background-color:#1C222B;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #FAFAFA;
+}
+
+.menu a{
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.hero{
+    background-image: linear-gradient(rgba(70, 124, 60, 0.4)),url('../images/vista-superior-das-plantas-e-itens-de-estudo.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    padding: 150px 0 60px 0;
+    text-align: center;
+    color: #FAFAFA;
+    text-shadow: 1px 1px 8px #000000;
+}
+
+h1{
+    font-size: 90px;
+}
+
+.hero a, .inf a, .btn{
+    background-color: #1C222B;
+    color: #FAFAFA;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px 30px;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 40px;
+    margin-top: 60px;
+}
+
+.inf {
+    background-color:#FAFAFA;
+    padding: 40px 20px;
+    color: #1C222B;
+    text-align: center;
+}
+
+.inf h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.inf p {
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.dados {
+    display: flex;
+    justify-content:center;
+    margin-top: 10px;
+}
+
+.item img {
+    width: 60px;
+    margin-top: 5px;
+}
+
+.item header {
+    margin-top: 5px;
+    color: #1C222B;
+    margin-bottom: 40px;
+}
+
+.item p{
+    font-size: 19px;
+}
+
+.forms, .forms2{
+    width: 35%;
+    box-sizing: border-box;
+}
+
+.input-element, .message, .upload-input{
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 3px solid #D7DFE9;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}    
+
+.upload-input {
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.escolas{
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.escola{
+    width: 30%;
+    margin: 0 20px;
+    background-color: #FFFFFF;
+    border: 2px solid #D7DFE9;
+    border-radius: 5px;
+}
+
+.escola img{
+    width: 100%;
+}
+
+.escola h3{
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+footer{
+    padding: 50px;
+    background-color: #1C222B;
+    color: #FAFAFA;
+    text-transform: capitalize;
+}
+
+.partes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.parte{
+    width: 20%;
+}
+
+.parte img{
+    width: 100%;
+}
+
+.parte h3{
+    font-size: 25px;
+}
+
+.parte a{
+    display: block;
+    text-decoration: none;
+}
+
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-site {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .menu a {
+    margin: 8px 0;
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  .hero h2 {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+  .hero a {
+    font-size: 16px;
+    padding: 12px 25px;
+    margin-top: 30px;
+  }
+  .inf p {
+    margin: 0 15px;
+    font-size: 16px;
+  }
+  .dados {
+    flex-direction: column;
+    align-items: center;
+  }
+  .forms, .forms2 {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+  .escolas {
+    flex-direction: column;
+    align-items: center;
+  }
+  .escola {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .partes {
+    flex-direction: column;
+    align-items: center;
+  }
+  .parte {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .parte h3 {
+    font-size: 20px;
+  }
+  footer p {
+    text-align: center;
+    font-size: 14px;
+  }
+}
