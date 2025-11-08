@@ -176,11 +176,14 @@ footer{
 }
 
 @media (max-width: 480px) {
+
+  /* HEADER */
   .top-site {
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
   }
+
   .menu {
     display: flex;
     flex-direction: column;
@@ -191,52 +194,69 @@ footer{
     margin: 8px 0;
     font-size: 16px;
   }
-  h1 {
-    font-size: 45px;
+
+  /* SEÇÕES GERAIS */
+  .inf {
+    padding: 20px 10px;
   }
-  .hero h2 {
-    font-size: 18px;
-    padding: 0 10px;
-  }
-  .hero a {
-    font-size: 16px;
-    padding: 12px 25px;
-    margin-top: 30px;
+  .inf h2 {
+    font-size: 24px;
   }
   .inf p {
-    margin: 0 15px;
+    margin: 10px;
     font-size: 16px;
   }
+
+  /* FORMULÁRIOS */
   .dados {
-    flex-direction: column;
+    flex-direction: column; /* 🔹 tudo em coluna */
     align-items: center;
   }
   .forms, .forms2 {
-    width: 95%;
+    width: 90%;
     margin-bottom: 20px;
   }
+
+  .btn {
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  /* ESCOLAS */
   .escolas {
-    flex-direction: column;
+    flex-direction: column; /* 🔹 empilha escolas */
     align-items: center;
   }
   .escola {
     width: 90%;
     margin-bottom: 20px;
   }
+
+  /* FOOTER */
   .partes {
-    flex-direction: column;
+    flex-direction: column; /* 🔹 empilha colunas */
     align-items: center;
   }
   .parte {
     width: 90%;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
-  .parte h3 {
-    font-size: 20px;
+
+  /* HERO */
+  .hero {
+    padding: 100px 0 40px 0;
   }
-  footer p {
-    text-align: center;
-    font-size: 14px;
+  .hero h1 {
+    font-size: 40px;
+  }
+  .hero h2 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .hero a {
+    padding: 12px 25px;
+    font-size: 16px;
+    margin-top: 30px;
   }
 }
