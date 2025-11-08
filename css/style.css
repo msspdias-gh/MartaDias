@@ -4,53 +4,53 @@ a{color: #ffffff;}
 body{font-family: "Poppins", sans-serif;}
 
 .top-site{
-    background-color:#1C222B;
-    padding: 12px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    box-sizing: border-box;
+  background-color:#1C222B;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .logo{
-    font-size: 12px;
-    text-transform: uppercase;
-    color: #FAFAFA;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #FAFAFA;
 }
 
 .menu a{
-    font-size: 14px;
-    margin-left: 15px;
+  font-size: 14px;
+  margin-left: 15px;
 }
 
 .hero{
-    background-image: linear-gradient(rgba(70, 124, 60, 0.4)),url('../images/vista-superior-das-plantas-e-itens-de-estudo.jpg');
-    background-size: cover;
-    background-position: top center;
-    background-attachment: fixed;
-    padding: 150px 0 60px 0;
-    text-align: center;
-    color: #FAFAFA;
-    text-shadow: 1px 1px 8px #000000;
+  background-image: linear-gradient(rgba(70, 124, 60, 0.4)),url('../images/vista-superior-das-plantas-e-itens-de-estudo.jpg');
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  padding: 150px 0 60px 0;
+  text-align: center;
+  color: #FAFAFA;
+  text-shadow: 1px 1px 8px #000000;
 }
 
 h1{
-    font-size: 90px;
+  font-size: 90px;
 }
 
 .hero a, .inf a, .btn{
-    background-color: #1C222B;
-    color: #FAFAFA;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 20px 30px;
-    display: inline-block;
-    font-size: 20px;
-    border-radius: 40px;
-    margin-top: 60px;
+  background-color: #1C222B;
+  color: #FAFAFA;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px 30px;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 40px;
+  margin-top: 60px;
 }
 
 .inf {
@@ -177,86 +177,7 @@ footer{
 
 
 @media (max-width: 480px) {
-
-  /* HEADER */
-  .top-site {
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
-  }
-
-  .menu {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 10px;
-  }
-
-  .menu a {
-    margin: 8px 0;
-    font-size: 16px;
-  }
-
-  /* HERO */
-  h1 {
-    font-size: 45px;
-  }
-  .hero h2 {
-    font-size: 18px;
-    padding: 0 10px;
-  }
-  .hero a {
-    font-size: 16px;
-    padding: 12px 25px;
-    margin-top: 30px;
-  }
-
-  /* TEXTOS */
-  .inf p {
-    margin: 0 15px;
-    font-size: 16px;
-  }
-
-  /* FORMULÁRIOS */
-  .dados {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .forms, .forms2 {
-    width: 95%;
-    margin-bottom: 20px;
-  }
-
-  /* ESCOLAS */
-  .escolas {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .escola {
-    width: 90%;
-    margin-bottom: 20px;
-  }
-
-  /* FOOTER */
-  .partes {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .parte {
-    width: 90%;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-
-  .parte h3 {
-    font-size: 20px;
-  }
-
-  footer p {
-    text-align: center;
-    font-size: 14px;
+  .top-site,.hero a, .inf a, .btn, .dados, .escolas, .partes, .{
+    display: none;
   }
 }
