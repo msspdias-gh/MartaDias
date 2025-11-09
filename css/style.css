@@ -169,14 +169,28 @@ footer{
 }
 
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   html {
     font-size: 100%;
+    width: 100%;
   }
 }
 
-@media (max-width: 480px) {
+
+@media screen and (max-width: 480px){
   .top-site,.menu a, .hero a, .inf a, .btn, .dados, .escolas, .partes{
     display: block;
   }
+  .item, .escola, .parte, .forms, .forms2, .btn{
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+  }
+  .inf p {
+    margin: auto;
+  }
 }
+
+
+
+
